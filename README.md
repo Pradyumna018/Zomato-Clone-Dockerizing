@@ -79,7 +79,7 @@ Now that we have a Docker image for our React application, we can run a Docker c
 In your terminal, run the following command to start a Docker container based on the image we just built:
 
 ```bash
-docker run -d -p 3000:3000 react-application
+docker run -d -p 3000:3000 zomato-clone
 ```
 
 This command starts a Docker container and maps port 3000 from the container to port 3000 on your local machine. The `react-application` parameter specifies the name of the Docker image that we want to run.
