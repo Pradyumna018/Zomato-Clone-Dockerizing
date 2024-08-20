@@ -53,15 +53,9 @@ CMD ["npm", "start"]
 ```
 # Step : 4 Building a Docker Image
 
-Now that we have a Dockerfile for our React application, we can build a Docker image.
+Now that we have a Dockerfile for our Zomato application, we can build a Docker image.
 
-Create a new file named `.dockerignore` in the root directory of your React application and add the following line:
-
-```bash
-node_modules
-```
-
-In your terminal, navigate to the root directory of your React application and run the following command:
+In your terminal, navigate to the root directory of your Zomato application and run the following command:
 
 ```bash
 docker build -t zomato-clone .
@@ -90,6 +84,7 @@ You can also use the `docker ps` command to see a list of running containers, in
 
 # OUTPUT
 
+![Screenshot 2024-08-21 000926](https://github.com/user-attachments/assets/aa77c547-fba5-42d5-bd5f-d15ab69aeff5)
 
 
 
